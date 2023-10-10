@@ -1,0 +1,189 @@
+.backgrounOnedHome {
+    background: linear-gradient(45deg, #9e559e 0%, #6c238b 20%, #581b8a 40%, #3d35a8 60%, #2f2894 80%, #0b046e 100%);
+    margin-top: 0;
+    padding-top: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
+
+.backgrounTwoHome {
+    background: #03010f;
+    width: 100vw;
+    min-height: 100vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    padding-left: rem;
+}
+
+.tramaOneHome {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAExJREFUKFNjZGbk/88ABX//f2RgZuSHcVFoRphCfIpAOsAKCSmCK0S2Y0XGHIaIGSkY1sOthsmQpBCkCd1UDBOxehnmGVySyOLUNxEA3Locv8Fwm2cAAAAASUVORK5CYII=) repeat;
+    height: 100vh;
+}
+
+.backgrounThreedHome {
+    background: linear-gradient(45deg, #9e559e 0%, #6c238b 20%, #581b8a 40%, #3d35a8 60%, #2f2894 80%, #0b046e 100%);
+    width: 100vw;
+    min-height: 100vh;
+    padding: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.containerSocialNetworksHome {
+    display: flex;
+    justify-items: start;
+    align-items: center;
+}
+
+.socialNetworksHome {
+    display: grid;
+    width: 10%;
+    grid-template-columns: repeat(3, 1fr);
+    /* Tres columnas de igual ancho */
+    grid-gap: 5px;
+    margin-left: 3rem;
+
+}
+
+.iconHome {
+    background-color: transparent;
+    text-align: center;
+    margin: 2rem;
+}
+
+.titleHome {
+    color: aliceblue;
+    font-family: 'Gafata', sans-serif;
+    font-size: 84px;
+    font-weight: bold;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.pHome {
+    color: aliceblue;
+    font-size: 32px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-family: 'Gafata', sans-serif;
+}
+
+.buttomHome {
+    background-color: #050505;
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    font-family: 'Gafata', sans-serif;
+    font-size: 24px;
+    margin-bottom: 3em;
+
+}
+
+.buttomHome:hover {
+    background-color: #1a1919;
+}
+
+.iHome {
+    margin-top: 30%;
+    width: 80vh;
+    /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: 80vh;
+    /* Asegura que la imagen ocupe todo el alto del contenedor */
+    object-fit: cover;
+    /* Ajusta la imagen al alto del contenedor sin distorsionarla */
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+}
+
+.containerProyect {
+    max-width: 72%;
+    margin: 0 auto;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+
+}
+
+.parte1,
+.parte2,
+.parte3,
+.parte4,
+.parte5,
+.parte6,
+.parte7,
+.parte8,
+.parte9 {
+    border: rgb(155, 149, 156) 1px solid;
+    padding: 200px 0 25%;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    box-shadow:
+        2.2px 1.8px 1.4px rgba(0, 0, 0, 0.049),
+        4.8px 4.1px 3.1px rgba(0, 0, 0, 0.072),
+        8.2px 7px 5.3px rgba(0, 0, 0, 0.089),
+        12.7px 10.8px 8.2px rgba(0, 0, 0, 0.103),
+        18.8px 16px 12.2px rgba(0, 0, 0, 0.117),
+        27.7px 23.5px 17.9px rgba(0, 0, 0, 0.131),
+        41.5px 35.2px 26.8px rgba(0, 0, 0, 0.148),
+        66.2px 56px 42.7px rgba(0, 0, 0, 0.171),
+        124px 105px 80px rgba(0, 0, 0, 0.22);
+    background-size: 100% 100%;
+}
+
+.parte1 {
+    background-image: url(./../../assets/PRERYM.jpg);
+}
+
+.parte2 {
+    background-image: url(./../../assets/GWP2.jpg);
+}
+
+.parte3 {
+    background-image: url(./../../assets/NG.jpg);
+}
+
+.parte4 {
+    background-image: url(./../../assets/SP.jpg);
+}
+
+.parte1,
+.parte2,
+.parte3,
+.parte4,
+.parte5,
+.parte6,
+.parte7,
+.parte8,
+.parte9:hover {
+    transform: scale(0.9);
+}
+
+.styleDiv {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 30px;
+}
+
+.div2 {
+    width: 70%;
+    height: 10vh;
+    color: aliceblue;
+    font-size: 32px;
+    font-family: 'Gafata', sans-serif;
+    padding: 15%;
+    display: flex;
+    justify-content: center;
+}
